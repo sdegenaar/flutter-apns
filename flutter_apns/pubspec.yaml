@@ -18,8 +18,12 @@ dependencies:
   flutter:
     sdk: flutter
   firebase_core: ^1.11.0
-  firebase_messaging: ^11.2.5
-  flutter_apns_only: ^1.5.2
+  firebase_messaging: ^11.2.5  
+  flutter_apns_only:
+    git:
+      url: https://github.com/sdegenaar/flutter-apns
+      ref: master
+      path: flutter_apns_only
 
 dev_dependencies:
   flutter_test:
